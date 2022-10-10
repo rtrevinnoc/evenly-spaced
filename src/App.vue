@@ -11,8 +11,7 @@
       </tr>
     </table>
     <br>
-    <input type="text" name="x" id="x" v-model.number="x" placeholder="nuevo valor">
-    <input type="text" name="result" id="result" v-model.number="result" placeholder="resultado">
+    f(<input type="text" name="x" id="x" v-model.number="x" placeholder="nuevo valor">) = <input type="text" name="result" id="result" v-model.number="result" placeholder="resultado">
     <br>
     <button v-on:click="increase()">Agregar valor</button>
     <button v-on:click="decrease()">Eliminar valor</button>
